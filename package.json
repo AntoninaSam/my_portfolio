@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "description": "Portfolio website",
   "main": "main.js",
+  "homepage": "https://AntoninaSam.github.io/my_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/--recursive"
+    "sass": "node-sass -w scss/ -o dist/css/--recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "AntoninaSam",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoninaSam/my_portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntoninaSam/my_portfolio/issues"
+  }
 }
